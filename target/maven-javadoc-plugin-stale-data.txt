@@ -1,0 +1,59 @@
+@options
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs'
+-docencoding
+'UTF-8'
+-Xdoclint:none
+-doctitle
+'tp_qualite 1.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/workspace/r2-03-td4-maven-2024-Sxrions/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tp_qualite 1.0 API'
+'/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/HelloJava.java'
+'/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/Main.java'
+'/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/Pile.java'
+/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/HelloJava.java = 1739969335108
+/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/Main.java = 1739970151428
+/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java/Pile.java = 1739969908484
+/workspace/r2-03-td4-maven-2024-Sxrions/src/main/java = 1739969238732
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/Main.html = 1739970595056
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/Pile.html = 1739970595092
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/element-list = 1739970595096
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/package-summary.html = 1739970595100
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/package-tree.html = 1739970595108
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/constant-values.html = 1739970595108
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/package-use.html = 1739970595124
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/overview-tree.html = 1739970595128
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/package-search-index.js = 1739970595140
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/package-search-index.zip = 1739970595144
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/type-search-index.js = 1739970595144
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/type-search-index.zip = 1739970595144
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/member-search-index.js = 1739970595156
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/member-search-index.zip = 1739970595156
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/index-all.html = 1739970595156
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/allclasses-index.html = 1739970595164
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/allpackages-index.html = 1739970595168
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/deprecated-list.html = 1739970595176
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/allclasses.html = 1739970595176
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/index.html = 1739970595180
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/help-doc.html = 1739970595184
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/stylesheet.css = 1739970595184
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/script.js = 1739970595184
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/search.js = 1739970595188
+/workspace/r2-03-td4-maven-2024-Sxrions/target/site/apidocs/jquery-ui.overrides.css = 1739970595196
