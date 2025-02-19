@@ -1,3 +1,5 @@
+//J'ai modifié la ligne 33 de pox.xml "mainclass" pour sélectionner Main.java
+
 public class Main {
     public static void main(String[] args) {
         try {
