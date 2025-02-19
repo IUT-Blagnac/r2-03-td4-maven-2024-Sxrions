@@ -1,0 +1,39 @@
+name: Autograding Tests
+'on':
+- workflow_dispatch
+- repository_dispatch
+permissions:
+  checks: write
+  actions: read
+  contents: read
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: Maven package
+      id: maven-package
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Maven package
+        setup-command: ''
+        command: mvn package
+        timeout: 10
+        max-score: 10
+    - name: Javadoc
+      id: javadoc
+      uses: classroom-resources/autograding-command-grader@v1
+      with:
+        test-name: Javadoc
+        setup-command: ''
+        command: mvn javadoc:javadoc
+        timeout: 20
+    - name: Autograding Reporter
+      uses: classroom-resources/autograding-grading-reporter@v1
+      env:
+        MAVEN-PACKAGE_RESULTS: "${{steps.maven-package.outputs.result}}"
+        JAVADOC_RESULTS: "${{steps.javadoc.outputs.result}}"
+      with:
+        runners: maven-package,javadoc
